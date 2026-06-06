@@ -5,6 +5,7 @@ const links = [
   { to: '/dashboard', label: 'Dashboard', icon: '⊞' },
   { to: '/users', label: 'Users', icon: '👥', adminOnly: true },
   { to: '/documents', label: 'Documents', icon: '📄' },
+  { to: '/compliance', label: 'Compliance', icon: '✓' },
   { to: '/settings', label: 'Settings', icon: '⚙' },
 ];
 

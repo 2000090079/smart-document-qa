@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import Users from './pages/Users';
 import Settings from './pages/Settings';
 import Documents from './pages/Documents';
+import Compliance from './pages/Compliance';
 import Layout from './components/Layout/Layout';
 import ProtectedRoute from './routes/ProtectedRoute';
 
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/users" element={<Users />} />
           <Route path="/documents" element={<Documents />} />
+          <Route path="/compliance" element={<Compliance />} />
           <Route path="/settings" element={<Settings />} />
         </Route>
       </Route>
